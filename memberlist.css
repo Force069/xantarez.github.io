@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px 30px;
+  background: #ffffff;
+  border-radius: 12px;
+      animation: animation3 5s ease 0s normal none;
+      animation: animation4 4s ease 0s normal infinite;
+      -webkit-box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+      -moz-box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+      box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card h2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #f2f2f2;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.members {
+  max-height: 360px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.members::-webkit-scrollbar {
+  width: 8px;
+}
+.members::-webkit-scrollbar-thumb {
+  background: rgba(55, 55, 55, 0.373);
+  border-radius: 10px;
+}
+.members::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.member {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.member:hover {
+  background: #e8e8ff;
+  transform: translateY(-2px);
+}
+
+.member a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+
+.member img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.member .name {
+  flex-grow: 1;
+}
+
+.member .name p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.member .name span {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.member .role {
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+  margin-left: auto;
+}
+
+.not-found {
+  color: #6565f8;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}

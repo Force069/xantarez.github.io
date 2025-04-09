@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Prompt:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/793129764558864386/1359188348622868561/IMG_0679.png?ex=67f6924a&is=67f540ca&hm=d4a9bd7c017cf23284275e492b640363fc9a1b57354f6c139deb7a2c6827acbd&");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.img-profile {
+  max-width: 20%;
+  margin: 20px;
+  display: inline-block;
+  margin-left: 10px;
+  animation: animation1 5s ease 0s normal none;
+}
+
+.img-profile-About-ME {
+  max-width: 20%;
+  max-height: auto;
+  min-width: 200px;
+  min-height: auto;
+  margin: 20px;
+  display: inline-block;
+  animation: animation1 5s ease 0s normal none;
+  border-radius: 30px 30px 30px 30px;
+  margin-top: 5%;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  animation: animation1 5s ease 0s normal none;
+  animation: animation2 4s ease 0s normal infinite;
+  -webkit-box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+  -moz-box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+}
+
+.card-content {
+  width: 500px;
+  background-color: rgb(34, 34, 35);
+  border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  animation: animation1 5s ease 0s normal none;
+  animation: animation2 4s ease 0s normal infinite;
+  -webkit-box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+  -moz-box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+}
+
+.text-Profile {
+  display: inline-block;
+  font-family: Bebas Neue;
+  font-size: 50px;
+  animation: animation1 5s ease 0s normal none;
+  color: aliceblue;
+  margin: 20px;
+}
+
+.text-About-ME {
+  display: inline-block;
+  font-family: Prompt;
+  font-size: 50px;
+  animation: animation1 5s ease 0s normal none;
+  color: aliceblue;
+  margin-left: 20px;
+  margin-top: 10%;
+}
+
+.text-caption-Profile {
+  display: inline-block;
+  font-family: Prompt;
+  font-size: 20px;
+  margin-left: 20px;
+  animation: animation1 5s ease 0s normal none;
+  color: aliceblue;
+}
+
+.img-school-About-ME {
+  max-width: 10%;
+  display: inline-block;
+  margin-left: 10px;
+  animation: animation1 5s ease 0s normal none;
+  border-radius: 50% 50% 50% 50%;
+  margin-top: 5%;
+  -moz-border-radius: 50px 50px 50px 50px;
+  animation: animation1 5s ease 0s normal none;
+  animation: animation2 4s ease 0s normal infinite;
+  -webkit-box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+  -moz-box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+}
+
+.head-text-caption-About-ME {
+  display: inline-block;
+  font-family: Prompt;
+  font-size: 30px;
+  margin-left: 20px;
+  animation: animation1 5s ease 0s normal none;
+  color: aliceblue;
+}
+
+.text-caption-About-ME {
+  display: inline-block;
+  font-family: Prompt;
+  font-size: 20px;
+  margin-left: 20px;
+  animation: animation1 5s ease 0s normal none;
+  color: aliceblue;
+}
+
+.card-text-Profile {
+  display: inline-block;
+  animation: animation1 5s ease 0s normal none;
+  color: aliceblue;
+}
+
+.head-Project {
+  display: inline-block;
+  font-family: Prompt;
+  font-size: 30px;
+  margin-left: 20px;
+  animation: animation1 5s ease 0s normal none;
+  color: aliceblue;
+}
+
+.head-Certificate {
+  display: inline-block;
+  font-family: Prompt;
+  font-size: 30px;
+  margin-left: 20px;
+  animation: animation1 5s ease 0s normal none;
+  color: aliceblue;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: black;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://cdn.discordapp.com/attachments/1030026287798042636/1152177838544388106/wave_1_1.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+
+@keyframes animation1 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+@keyframes animation2 {
+  0% {
+    -webkit-box-shadow: 0px 0px 105px 45px rgb(250, 250, 250, 0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgb(245, 245, 245, 0.9);
+    box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 50px 35px rgb(255, 255, 255, 0.9);
+    -moz-box-shadow: 0px 0px 50px 35px rgb(252, 252, 252, 0.9);
+    box-shadow: 0px 0px 50px 35px rgb(255, 255, 255, 0.9);
+  }
+
+  100% {
+    -webkit-box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgb(245, 245, 245, 0.9);
+    box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+  }
+
+}
+
+@keyframes animation3 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+@keyframes animation4 {
+  0% {
+    -webkit-box-shadow: 0px 0px 105px 45px rgb(250, 250, 250, 0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgb(245, 245, 245, 0.9);
+    box-shadow: 0px 0px 70px 45px rgb(255, 255, 255, 0.9);
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 50px 35px rgb(255, 255, 255, 0.9);
+    -moz-box-shadow: 0px 0px 50px 35px rgb(252, 252, 252, 0.9);
+    box-shadow: 0px 0px 50px 35px rgb(255, 255, 255, 0.9);
+  }
+
+  100% {
+    -webkit-box-shadow: 0px 0px 105px 45px rgb(255, 255, 255, 0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgb(245, 245, 245, 0.9);
+    box-shadow: 0px 0px 70px 45px rgb(255, 255, 255, 0.9);
+  }
+
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+button {
+  font-family: "Space Mono", monospace;
+  letter-spacing: 1px;
+  background: none;
+  color: white;
+  position: relative;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 190px;
+  font-size: 14px;
+  z-index: 2;
+  transition: 0.01s 0.23s ease-out all;
+  overflow: hidden;
+  margin: 20px;
+}
+button:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 55%;
+  background: #202020;
+  z-index: -1;
+  transition: 0.3s ease-in all;
+}
+button:after {
+  content: "";
+  position: absolute;
+  left: -5%;
+  top: 5%;
+  height: 90%;
+  width: 5%;
+  background: white;
+  z-index: -1;
+  transition: 0.4s 0.02s ease-in all;
+}
+button:hover {
+  cursor: pointer;
+  color: transparent;
+}
+button:hover:before {
+  left: 100%;
+  width: 25%;
+}
+button:hover:after {
+  left: 100%;
+  width: 70%;
+}
+button:hover .icon-right.after:after {
+  left: -80px;
+  color: white;
+  transition: 0.2s 0.2s ease all;
+}
+button:hover .icon-right.after:before {
+  left: -104px;
+  top: 14px;
+  opacity: 0.2;
+  color: white;
+}
+
+.icon-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.icon-right:after {
+  font-family: "FontAwesome";
+  content: "→";
+  font-size: 24px;
+  display: inline-block;
+  position: relative;
+  top: 26px;
+  transform: translate3D(0, -50%, 0);
+}
+.icon-right.after:after {
+  left: -250px;
+  color: black;
+  transition: 0.15s 0.25s ease left, 0.5s 0.05s ease color;
+}
+.icon-right.after:before {
+  content: "MEMBER LIST";
+  position: absolute;
+  left: -230px;
+  top: 14px;
+  opacity: 0;
+  transition: 0.2s ease-in all;
+}
+
+.signature {
+  position: fixed;
+  font-family: sans-serif;
+  font-weight: 100;
+  bottom: 10px;
+  left: 0;
+  letter-spacing: 4px;
+  font-size: 10px;
+  width: 100vw;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+</style>
